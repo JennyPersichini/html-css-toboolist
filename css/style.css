@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -27,6 +28,7 @@ button {
     padding: 5px 15px;
     margin: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .blue-button {
@@ -35,104 +37,91 @@ button {
     margin-left: 40px;
 }
 
+.blue-button:hover {
+    background-color: rgba(0, 145, 255, 0.392);
+    border-color: rgb(0, 145, 255, 0.392);
+}
+
 .white-button {
     border: 1px solid gray;
 }
 
+.white-button:hover {
+    background-color: rgba(128, 128, 128, 0.399);
+}
+
 .checklist {
-    margin: 10px;
+    margin: 5px 10px;
     padding: 15px;
 }
 
 details {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+summary {
+    font-weight: 700;
 }
 
 p {
     padding: 5px;
     margin: 5px;
+    color: rgb(113, 113, 113);
 }
 
 .categories {
     font-size: x-small;
     color: white;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px ;
+    border-radius: 10px;
 }
 
 .blue-edi {
     background-color: blue;
-    display: inline-block;
-    width: 55px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px ;
-    border-radius: 10px;
 }
 
 .violet-goals {
     background-color: blueviolet;
-    display: inline-block;
-    width: 55px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px ;
-    border-radius: 10px;
 }
 
 .green-recruiting {
     background-color: rgb(0, 128, 66);
-    display: inline-block;
-    width: 55px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px ;
-    border-radius: 10px;
 }
 
 .orange-mobile {
     background-color: orange;
-    display: inline-block;
-    width: 55px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px ;
-    border-radius: 10px;
 }
 
 .pink-web {
     background-color: rgb(251, 2, 197);
-    display: inline-block;
-    width: 55px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px ;
-    border-radius: 10px;
 }
 
 .lime-sales {
     background-color: greenyellow;
-    display: inline-block;
-    width: 55px;
-    height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px ;
-    border-radius: 10px;
 }
 
 .green-ok {
     color: green;
     border: 1px solid green;
     border-radius: 50%;
+    width: 15px;
+    height: 10px;
 }
 
 .red-no {
     color: red;
     border: 1px solid red;
     border-radius: 50%;
+    width: 15px;
+    height: 10px;
+}
+
+span {
+    margin: 0px 10px;
 }
