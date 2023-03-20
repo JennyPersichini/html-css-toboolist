@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+header {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#logo {
+    padding: 5px;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.blue-button {
+    background-color: rgb(0, 145, 255);
+    border-color: rgb(0, 145, 255);
+    margin-left: 40px;
+}
+
+.white-button {
+    border: 1px solid gray;
+}
+
+.checklist {
+    margin: 10px;
+    padding: 15px;
+}
+
+details {
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.categories {
+    font-size: x-small;
+    color: white;
+}
+
+.blue-edi {
+    background-color: blue;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px ;
+    border-radius: 10px;
+}
+
+.violet-goals {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px ;
+    border-radius: 10px;
+}
+
+.green-recruiting {
+    background-color: rgb(0, 128, 66);
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px ;
+    border-radius: 10px;
+}
+
+.orange-mobile {
+    background-color: orange;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px ;
+    border-radius: 10px;
+}
+
+.pink-web {
+    background-color: rgb(251, 2, 197);
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px ;
+    border-radius: 10px;
+}
+
+.lime-sales {
+    background-color: greenyellow;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px ;
+    border-radius: 10px;
+}
+
+.green-ok {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.red-no {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
