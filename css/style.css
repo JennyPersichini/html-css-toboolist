@@ -110,7 +110,6 @@ p {
     color: green;
     border: 1px solid green;
     border-radius: 50%;
-    width: 15px;
     height: 10px;
 }
 
@@ -118,7 +117,6 @@ p {
     color: red;
     border: 1px solid red;
     border-radius: 50%;
-    width: 15px;
     height: 10px;
 }
 
